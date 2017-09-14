@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/x100"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/icon_blue"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/ll_title_bar_left"
+            android:layout_width="@dimen/x40"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|left"
+            android:gravity="center"
+            android:onClick="baseBack"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_title_bar_left"
+                android:layout_width="@dimen/x40"
+                android:layout_height="@dimen/x40"
+                android:background="#ec37"/>
+        </LinearLayout>
+
+        <!-- 中间布局 -->
+
+        <LinearLayout
+            android:id="@+id/ll_title_bar_center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_title_bar_center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                tools:text="title"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <!-- 右边布局 -->
+
+        <LinearLayout
+            android:id="@+id/ll_title_bar_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:paddingRight="@dimen/x10"
+            android:paddingLeft="@dimen/x10"
+            android:onClick="rightClickSave"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+
+
+            <TextView
+                android:id="@+id/tv_title_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:text="确定"
+               />
+        </LinearLayout>
+
+</RelativeLayout>

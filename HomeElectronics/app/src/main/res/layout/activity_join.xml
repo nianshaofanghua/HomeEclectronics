@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/little_gray"
+    tools:context="com.yidan.homeelectronics.activity.JoinActivity">
+<LinearLayout
+    android:background="@color/gray"
+    android:layout_marginRight="@dimen/x50"
+    android:layout_marginLeft="@dimen/x50"
+    android:layout_marginTop="@dimen/x100"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/x850"
+    >
+    <RelativeLayout
+
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="0dp">
+        <TextView
+
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_centerVertical="true"
+            android:text="联系人："
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_marginRight="@dimen/x30"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/icon_blue"
+            android:scaleType="centerCrop"
+            android:layout_gravity=""
+            android:layout_width="@dimen/x40"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <RelativeLayout
+      android:layout_marginTop="@dimen/x1"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="0dp">
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_centerVertical="true"
+            android:text="联系电话："
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_marginRight="@dimen/x30"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/icon_blue"
+            android:scaleType="centerCrop"
+           android:layout_gravity=""
+            android:layout_width="@dimen/x40"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="@dimen/x1"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="0dp">
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_centerVertical="true"
+            android:text="商户名称："
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_marginRight="@dimen/x30"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/icon_blue"
+            android:scaleType="centerCrop"
+            android:layout_gravity=""
+            android:layout_width="@dimen/x40"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="@dimen/x1"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="0dp">
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_centerVertical="true"
+            android:text="备注信息："
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_marginRight="@dimen/x30"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/icon_blue"
+            android:scaleType="centerCrop"
+            android:layout_gravity=""
+            android:layout_width="@dimen/x40"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="@dimen/x1"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="0dp">
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_centerVertical="true"
+            android:text="商户地址："
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_marginRight="@dimen/x30"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/icon_blue"
+            android:scaleType="centerCrop"
+            android:layout_gravity=""
+            android:layout_width="@dimen/x40"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <LinearLayout
+android:layout_marginTop="@dimen/x1"
+        android:layout_weight="3"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <CheckBox
+            android:layout_marginRight="@dimen/x30"
+            android:layout_marginLeft="@dimen/x30"
+            android:text="同意："
+            android:layout_marginTop="@dimen/x20"
+            android:background="@color/icon_blue"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+        <Button
+            android:layout_marginTop="@dimen/x20"
+            android:layout_marginRight="@dimen/x30"
+            android:layout_marginLeft="@dimen/x30"
+            android:background="@drawable/azure_circle"
+            android:scaleType="centerCrop"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/decide_know"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x100" />
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

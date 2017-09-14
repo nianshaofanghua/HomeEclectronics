@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/little_gray"
+    tools:context="com.yidan.homeelectronics.activity.FindPwdActivity">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/x50"
+        android:background="@drawable/white_lin"
+        android:layout_marginRight="@dimen/x60"
+        android:layout_marginLeft="@dimen/x60"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="@dimen/x500">
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_marginRight="@dimen/x30"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="@string/scanner_num"
+            android:inputType="number"
+            android:textColorHint="@color/gray"
+            android:background="@drawable/drawable_lin"
+            >
+
+
+        </EditText>
+
+        <EditText
+            android:layout_marginRight="@dimen/x30"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/drawable_lin"
+            android:id="@+id/pwd"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:hint="@string/scanner_pwd"
+            android:inputType="textPassword"
+            android:textColorHint="@color/gray"
+
+            >
+
+
+
+            </EditText>
+
+        <RelativeLayout
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <Button
+                android:layout_marginLeft="@dimen/x30"
+                android:layout_marginRight="@dimen/x30"
+                android:text="@string/next"
+                android:background="@drawable/azure_circle"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x90" />
+
+        </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
